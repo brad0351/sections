@@ -12,18 +12,22 @@ html {
 
 body {
   max-width: 25em;
-  margin: 1.5em;
+  margin: 1em;
 }
 
 img {
   width: 100%;
+  vertical-align: middle;
+  padding-top: 2em;
+  display: inline-block;
 }
 
 h2 {
   text-align: left;
   font-weight: bold;
   margin: 0;
-  padding: 2em 0em;
+  padding-bottom: 1.5em;
+  padding-top: 0;
 }
 
 p {
@@ -32,7 +36,7 @@ p {
   font-weight: normal;
   font-size: 1em;
   margin: 0;
-  padding: 1em 0;
+  padding: 0em 0em 1em;
   text-align: left;
 }
 
@@ -40,9 +44,13 @@ p {
   display: inline-block;
   list-style-type: none;
   text-decoration: none;
-  padding: .5em;
   color: #666;
   border-radius: .5em;
   border: medium solid #333;
   padding: .4em .75em .5em;
+  text-align: center;
+}
+
+section{
+  padding: 0 0 2em;
 }
